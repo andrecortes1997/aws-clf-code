@@ -30,14 +30,7 @@
                 "arn:aws:s3:::my-example-bucket/*"
             ]
         },
-        {
-            "Sid": "DenyDeleteObject",
-            "Effect": "Deny",
-            "Action": "s3:DeleteObject",
-            "Resource": [
-                "arn:aws:s3:::my-example-bucket/*"
-            ]
-        }
+         
     ]
 }
 

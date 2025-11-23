@@ -2,7 +2,7 @@
 Name: MyVPC
 IPv4 CIDR Block: 10.0.0.0/16
 
-# Create Public Subnets
+# Create Publicand Private Subnets
 
 Name: Public-1A
 Availability Zone: us-east-1a
